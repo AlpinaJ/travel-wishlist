@@ -1,0 +1,29 @@
+.header__link{
+    color: white;
+    font-family: Chathura;
+    font-size: 36px;
+    font-weight: normal;
+    text-decoration: none;
+    position: relative;
+}
+
+.header__link:after{
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(to right, white, #1c1c1c);
+    opacity: 0.8;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.header__link:hover{
+    /*opacity: 0.9;*/
+
+}
+.header__link:hover:after{
+    width: 100%;
+}

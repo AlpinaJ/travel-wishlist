@@ -1,0 +1,14 @@
+@font-face {
+    src: url(Chathura-Regular.woff2) format('woff2'),
+    url(Chathura-Regular.woff) format('woff');
+    font-family: 'Chathura';
+    font-style:  normal;
+    font-weight: 400;
+}
+@font-face {
+    src: url(Chathura-Bold.woff2) format('woff2'),
+    url(Chathura-Bold.woff) format('woff');
+    font-family: 'Chathura';
+    font-style:  normal;
+    font-weight: 900;
+}
