@@ -10,7 +10,8 @@
 .header__link:after{
     content: "";
     position: absolute;
-    background-image: linear-gradient(to right, white, #1c1c1c);
+    /*background-image: linear-gradient(to right, white, #1c1c1c);*/
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 30%, rgba(0,0,0,1) 100%);
     opacity: 0.8;
     height: 3px;
     width: 0%;
@@ -18,6 +19,7 @@
     bottom: -5px;
     transition: 0.3s;
     border-radius: 10px;
+    z-index: 2;
 }
 
 .header__link:hover{
