@@ -12,6 +12,6 @@ function About(){
             <img className="about__image" src={aboutPath}/>
         </div>
     )
-};
+}
 
 export default About;
