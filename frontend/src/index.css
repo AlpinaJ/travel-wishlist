@@ -16,9 +16,22 @@
 @import url('../src/blocks/about/__title/about__title.css');
 @import url('../src/blocks/about/__description/about__description.css');
 
+/*Explore*/
+@import url('../src/blocks/explore/explore.css');
+@import url('../src/blocks/explore/__title/explore__title.css');
+@import url('../src/blocks/explore/__paragraph/explore__paragraph.css');
+@import url('../src/blocks/explore/__link/explore__link.css');
+@import url('../src/blocks/explore/__card/explore__card.css');
+@import url('../src/blocks/explore/__image/explore__image.css');
+@import url('../src/blocks/explore/__card-link/explore__card-link.css');
+@import url('../src/blocks/explore/__overlay/explore__overlay.css');
+
+
 
 #root{
     background-color: black;
     min-height: 100vh;
+    max-height: fit-content;
     margin: 0;
+    padding: 0 0 30px;
 }
