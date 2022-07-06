@@ -1,0 +1,7 @@
+.about__image{
+    width: calc(100vw - 100px);
+    height: 850px;
+    justify-content: center;
+    object-fit: cover;
+    opacity: 0.97;
+}
