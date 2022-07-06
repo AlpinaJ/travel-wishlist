@@ -1,6 +1,6 @@
 .about__image{
-    width: calc(100vw - 100px);
-    height: 850px;
+    width: 100%;
+    height: 950px;
     justify-content: center;
     object-fit: cover;
     opacity: 0.97;

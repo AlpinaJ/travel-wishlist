@@ -4,7 +4,8 @@
     margin-bottom: 0;
     text-align: center;
     color: #ffffff;
-    background: linear-gradient(to right,white  0, #1E1E1E 10%, white 20%);
+    /*1E1E1E*/
+    background: linear-gradient(to right,white  0, black 10%, white 20%);
     background-position: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
