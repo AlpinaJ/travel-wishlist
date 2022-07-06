@@ -25,8 +25,8 @@ SwiperCore.use([Pagination]);
 function Explore(){
     return (
         <div className="explore">
-            <h2 className="explore__title">Explore the world</h2>
-            <p className="explore__paragraph">We provide an opportunity to enjoy beautiful
+            <h2 className="section__title">Explore the world</h2>
+            <p className="section__paragraph">We provide an opportunity to enjoy beautiful
                 places from all over the world and create your
                 personal travel wishlist based on the.
                 Our goal is to demonstrate that the beauty of our world is infinite,
@@ -40,63 +40,63 @@ function Explore(){
                 <SwiperSlide>
                     <div className="explore__card">
                         <img src={europePath} className="explore__image"/>
-                        <div className="explore__overlay"/>
+                        <div className="section__overlay"/>
                         <a href="#" className="explore__card-link">Europe</a>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="explore__card">
                         <img src={asiaPath} className="explore__image"/>
-                        <div className="explore__overlay"/>
+                        <div className="section__overlay"/>
                         <a href="#" className="explore__card-link">Asia</a>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="explore__card">
                         <img src={middleEastPath} className="explore__image"/>
-                        <div className="explore__overlay"/>
+                        <div className="section__overlay"/>
                         <a href="#" className="explore__card-link">Middle East</a>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="explore__card">
                         <img src={africaPath} className="explore__image"/>
-                        <div className="explore__overlay"/>
+                        <div className="section__overlay"/>
                         <a href="#" className="explore__card-link">Africa</a>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="explore__card">
                         <img src={australiaAndOceaniaPath} className="explore__image"/>
-                        <div className="explore__overlay"/>
+                        <div className="section__overlay"/>
                         <a href="#" className="explore__card-link">Australia and Oceania</a>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="explore__card">
                         <img src={northAmericaPath} className="explore__image"/>
-                        <div className="explore__overlay"/>
+                        <div className="section__overlay"/>
                         <a href="#" className="explore__card-link">North America</a>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="explore__card">
                         <img src={southAmericaPath} className="explore__image"/>
-                        <div className="explore__overlay"/>
+                        <div className="section__overlay"/>
                         <a href="#" className="explore__card-link">South America</a>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="explore__card">
                         <img src={centralAmericaPath} className="explore__image"/>
-                        <div className="explore__overlay"/>
+                        <div className="section__overlay"/>
                         <a href="#" className="explore__card-link">Central America</a>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="explore__card">
                         <img src={antarcticaPath} className="explore__image"/>
-                        <div className="explore__overlay"/>
+                        <div className="section__overlay"/>
                         <a href="#" className="explore__card-link">Antarctica</a>
                     </div>
                 </SwiperSlide>

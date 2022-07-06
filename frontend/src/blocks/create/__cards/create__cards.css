@@ -1,0 +1,5 @@
+.create__cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

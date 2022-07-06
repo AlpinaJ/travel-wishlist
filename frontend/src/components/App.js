@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import About from "./About";
 import Explore from "./Explore";
+import Create from "./Create";
 
 function App(){
     return (
@@ -9,6 +10,7 @@ function App(){
             <Header/>
             <About/>
             <Explore/>
+            <Create/>
         </div>
     )
 }

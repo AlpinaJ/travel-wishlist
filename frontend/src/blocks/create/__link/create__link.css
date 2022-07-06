@@ -1,0 +1,16 @@
+.create__link{
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Chathura, sans-serif;
+    text-decoration: none;
+    transition: 0.8s ease;
+    width: fit-content;
+    margin: 10px auto;
+}
+
+.create__link:hover{
+    color: #8D8D8D;
+}
+
