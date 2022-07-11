@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from './Header';
-import About from "./About";
-import Explore from "./Explore";
-import Create from "./Create";
+import Header from './Header/Header';
+import About from "./About/About";
+import Explore from "./Explore/Explore";
+import Create from "./Create/Create";
 
 function App(){
     return (

@@ -4,17 +4,18 @@ import "swiper/swiper.min.css";
 import "swiper/components/effect-coverflow/effect-coverflow.min.css";
 import "swiper/components/pagination/pagination.min.css";
 import "swiper/components/navigation/navigation.min.css";
-import "../styles/styles.css";
+import "./Explore.css";
+import "../Section/Section.css";
 
-import europePath from "../images/europe.png";
-import asiaPath from "../images/asia.png";
-import middleEastPath from "../images/middle-east.png";
-import africaPath from "../images/africa.png";
-import australiaAndOceaniaPath from "../images/australia-and-oceania.png";
-import northAmericaPath from "../images/north-america.png";
-import southAmericaPath from "../images/south-america.png";
-import centralAmericaPath from "../images/central-america.png";
-import antarcticaPath from "../images/antarctica.png";
+import europePath from "../../images/europe.png";
+import asiaPath from "../../images/asia.png";
+import middleEastPath from "../../images/middle-east.png";
+import africaPath from "../../images/africa.png";
+import australiaAndOceaniaPath from "../../images/australia-and-oceania.png";
+import northAmericaPath from "../../images/north-america.png";
+import southAmericaPath from "../../images/south-america.png";
+import centralAmericaPath from "../../images/central-america.png";
+import antarcticaPath from "../../images/antarctica.png";
 
 import SwiperCore, {
     Pagination

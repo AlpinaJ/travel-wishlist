@@ -1,6 +1,8 @@
 import React from 'react';
-import card1Path from "../images/create1.png";
-import card2Path from "../images/create2.png";
+import card1Path from "../../images/create1.png";
+import card2Path from "../../images/create2.png";
+import "./Create.css";
+import "../Section/Section.css";
 
 function Create() {
     return (

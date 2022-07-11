@@ -1,6 +1,7 @@
 import React from 'react';
 // import {Routes, Link, Route, useNavigate} from 'react-router-dom';
-import logoPath from "../images/logo.svg"
+import logoPath from "../../images/logo.svg"
+import "./Header.css";
 
 function Header() {
     function showMenuElement() {

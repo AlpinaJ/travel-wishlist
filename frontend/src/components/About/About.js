@@ -1,5 +1,6 @@
 import React from 'react';
-import aboutPath from "../images/about.png"
+import aboutPath from "../../images/about.png"
+import "./About.css";
 
 function About(){
     return(

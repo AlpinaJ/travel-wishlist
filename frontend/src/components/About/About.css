@@ -1,0 +1,68 @@
+.about{
+    margin: -30px 0 0;
+    position: relative;
+}
+
+.about__description{
+    text-align: center;
+    font-size: 45px;
+    margin: 0;
+}
+
+.about__image{
+    width: 100%;
+    height: 950px;
+    justify-content: center;
+    object-fit: cover;
+    opacity: 0.97;
+}
+
+.about__overlay{
+    position: absolute;
+    background: linear-gradient(rgba(0,0,0,0.9) 0%,
+    rgba(0,0,0,0.1) 20%,
+    rgba(0,0,0,0.1) 80%,
+    rgba(0,0,0,0.9) 100%);
+    z-index: 1;
+    width: 100%;
+    height: 950px;
+    opacity: 1;
+}
+
+.about__text{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-family: Chathura, sans-serif;
+    width: 900px;
+    top: 5%;
+    left: calc(50% - 450px);
+
+}
+
+.about__title{
+    font-weight: bold;
+    font-size: 130px;
+    margin-bottom: 0;
+    text-align: center;
+    color: #ffffff;
+    /*1E1E1E*/
+    background: linear-gradient(to right,white  0, black 10%, white 20%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 4s infinite linear;
+    animation-fill-mode: both;
+    -webkit-text-size-adjust: none;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+@keyframes shine{
+    0%
+    {background-position: 0}
+    60%
+    {background-position: 900px}
+    100%
+    {background-position: 900px}
+}

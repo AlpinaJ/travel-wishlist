@@ -1,0 +1,55 @@
+.explore{
+    margin: 0 100px 0;
+    justify-content: center;
+    color: white;
+    font-family: Chathura,sans-serif;
+    padding: 0 100px 0;
+}
+
+.explore__link{
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Chathura, sans-serif;
+    text-decoration: none;
+    transition: 0.8s ease;
+    width: fit-content;
+    margin: 10px auto;
+}
+
+.explore__link:hover{
+    color: #8D8D8D;
+}
+
+.explore__image{
+    width: 200px;
+    height: 300px;
+    opacity: 0.8;
+    border-radius: 3px;
+    object-fit: cover;
+}
+
+.explore__card-link{
+    width:180px;
+    position:absolute;
+    top:250px;
+    left:10px;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: Chathura,sans-serif;
+    font-size: 30px;
+    transition: 0.6s ease;
+}
+
+.explore__card-link:hover{
+    color: #8D8D8D;
+}
+
+.explore__card{
+    width: 200px;
+    height: 300px;
+    position: relative;
+}

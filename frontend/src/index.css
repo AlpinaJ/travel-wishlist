@@ -1,43 +1,6 @@
 @import url('../src/styles/normalize.css');
 @import url('../src/fonts/fonts.css');
 
-/*Section*/
-@import url('blocks/section/__title/section__title.css');
-@import url('blocks/section/__paragraph/section__paragraph.css');
-
-/*Header*/
-@import url('../src/blocks/header/header.css');
-@import url('../src/blocks/header/__link/header__link.css');
-@import url('../src/blocks/header/__logo/header__logo.css');
-@import url('../src/blocks/header/__menu/header__menu.css');
-@import url('../src/blocks/header/__menu/_disable/header__menu_disable.css');
-
-/*About*/
-@import url('../src/blocks/about/about.css');
-@import url('../src/blocks/about/__image/about__image.css');
-@import url('../src/blocks/about/__overlay/about__overlay.css');
-@import url('../src/blocks/about/__text/about__text.css');
-@import url('../src/blocks/about/__title/about__title.css');
-@import url('../src/blocks/about/__description/about__description.css');
-
-/*Explore*/
-@import url('../src/blocks/explore/explore.css');
-@import url('../src/blocks/explore/__link/explore__link.css');
-@import url('../src/blocks/explore/__card/explore__card.css');
-@import url('../src/blocks/explore/__image/explore__image.css');
-@import url('../src/blocks/explore/__card-link/explore__card-link.css');
-@import url('blocks/section/__overlay/section__overlay.css');
-
-/*Create*/
-@import url("../src/blocks/create/create.css");
-@import url('../src/blocks/create/__cards/create__cards.css');
-@import url('../src/blocks/create/__card/create__card.css');
-@import url("../src/blocks/create/__image/create__image.css");
-@import url("../src/blocks/create/__card-paragraph/create__card-paragraph.css");
-@import url("../src/blocks/create/__link/create__link.css");
-
-
-
 #root{
     background-color: black;
     min-height: 100vh;
